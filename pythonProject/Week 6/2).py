@@ -1,0 +1,6 @@
+l=list(map(int,input().split()))
+l=set(l)
+l=list(l)
+l.sort()
+print("Min:",l[0],sep="")
+print("Max:",l[-1],sep="")

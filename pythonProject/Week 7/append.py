@@ -1,0 +1,6 @@
+f=open("text","a")
+#f=open("text","r")
+x=input("enter text to be appended")
+f.write(x)
+#c=f.read()
+#print(c)
